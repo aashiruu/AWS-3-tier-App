@@ -112,7 +112,11 @@ aws-3-tier-app/
 Customization
 
 1. Edit terraform/terraform.tfvars:
+   
    · Set key_pair_name to your existing EC2 Key Pair name.
+   
    · Set s3_bucket_name to a globally unique name for your bucket.
+   
 2. Edit variables.tf:
+   
    · Modify aws_region, instance_type, or CIDR blocks to suit your needs.
