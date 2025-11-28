@@ -7,7 +7,6 @@ A complete infrastructure-as-code (IaC) project demonstrating a classic 3-tier a
 ## Architecture Overview
 
 ![3-Tier Architecture Diagram](https://raw.githubusercontent.com/aws-samples/aws-refarch-wordpress/master/images/aws-refarch-wordpress-v20170915.png)
-*(Note: Replace with your own diagram. This is a placeholder link.)*
 
 The architecture consists of:
 
@@ -43,7 +42,7 @@ Before using this Terraform code, ensure you have the following:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/aws-3-tier-app.git
+git clone https://github.com/aashiruu/aws-3-tier-app.git
 cd aws-3-tier-app/terraform
 ```
 2. Initialize Terraform
